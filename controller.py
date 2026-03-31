@@ -561,4 +561,4 @@ finally:
     stop_car(); vout.release(); p.disconnect(); _display.stop()
     size = os.path.getsize(VIDEO_PATH) if os.path.exists(VIDEO_PATH) else 0
     print(f"\n[Done] {VIDEO_PATH}  ({size//1024} KB)")
-    print("[Watch] cd /tmp && python3 -m http.server 8080") Explain this code fully part by part
+    print("[Watch] cd /tmp && python3 -m http.server 8080") 
